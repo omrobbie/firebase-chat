@@ -30,7 +30,7 @@
         android:layout_toLeftOf="@id/fab">
 
         <EditText
-            android:id="@+id/input"
+            android:id="@+id/chat_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -45,6 +45,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginBottom="16dp"
         android:divider="@android:color/transparent"
-        android:dividerHeight="16dp" />
+        android:dividerHeight="16dp"
+        tools:listitem="@layout/item_message" />
 
 </RelativeLayout>
